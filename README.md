@@ -1,3 +1,5 @@
+This repository is a fork of the original one, the newest compiled version of the plugin is in the Release.
+
 OmegaT Tencent Translate plugin
 ==========================
 
