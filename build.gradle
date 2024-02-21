@@ -2,7 +2,7 @@ plugins {
     id 'java'
     id 'checkstyle'
     id 'distribution'
-    id 'maven'
+    id 'maven-publish'
     id("org.omegat.gradle") version "1.5.9"
 }
 
@@ -11,7 +11,7 @@ group 'indi.yoyicue.machinetranslators.TencentTranslate'
 version '0.3'
 
 omegat {
-    version = "5.4.4"
+    version = "6.0.0"
     pluginClass = pluginMainClass
 }
 
@@ -22,12 +22,12 @@ repositories {
 dependencies {
     packIntoJar("org.slf4j:slf4j-api:1.7.21")
     // https://mvnrepository.com/artifact/com.tencentcloudapi/tencentcloud-sdk-java
-    packIntoJar("com.tencentcloudapi:tencentcloud-sdk-java:3.1.595")
+    packIntoJar("com.tencentcloudapi:tencentcloud-sdk-java:3.1.965")
 
 }
 
 checkstyle {
-    ignoreFailures = true
+    ignoreFailures = false
     toolVersion = '7.1'
 }
 
