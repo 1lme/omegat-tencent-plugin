@@ -8,7 +8,7 @@ plugins {
 
 group 'indi.yoyicue.machinetranslators.TencentTranslate'
 
-version '0.3'
+version '0.4'
 
 omegat {
     version = "6.0.0"
