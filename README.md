@@ -1,12 +1,9 @@
-This repository is a fork of the original one, the newest compiled version of the plugin is in the Release.
+This repository is a fork of the original one with some tweaks to ensure its functionality, the newest compiled version of the plugin is in the Releases.
 
 OmegaT Tencent Translate plugin
 ==========================
 
 This is a plugin to allow [OmegaT](http://omegat.org/) to source machine translations from [Tencent Cloud](https://cloud.tencent.com/product/tmt)
-
-**The functionality provided by this plugin is built into OmegaT 4.1.0 and
-later. Please uninstall the plugin if you are using this version or later.**
 
 Usage
 =====
